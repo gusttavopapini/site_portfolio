@@ -427,8 +427,8 @@ footer img {
 
     }
 
-    .repositorio-github {
-        padding: 1em;
+    .repositorio-github a{
+        padding: 1em 5em;
         margin: 1em 2em;
         background-color: #ec407a;
         border: solid 1px;
