@@ -2,13 +2,6 @@ html {
     scroll-behavior: smooth;
   }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
 body {
     background: black;
 }
@@ -285,57 +278,70 @@ footer img {
 }
 
 @media screen and (min-width: 200px) and (max-width: 812px){
-
+    
     header {
-        width: 100%;
-    }
-
-    .nav-cabecalho {
         display: block;
-        align-items: center;
-        background: rgb(22, 22, 22);
-    }
-
-    .navegacao-pagina {
-        display: flex;
-        width: 100%;
-    }
-
-    .navegacao-pagina li {
-        color: rgb(218, 218, 218);
-        padding: 0 0 1em 0;
-        font-family: 'Roboto Mono', monospace;
-        text-align: end;
-        font-size: 1.4em;
+        padding: 1em;
+        margin: 0;
     }
     
+    .nav-cabecalho {
+        display: grid;
+        background: rgb(22, 22, 22);
+        padding: 0;
+        margin: 0;
+    }
+
     .logotipo {
         width: 15%;
-        margin: 0 auto;
         opacity: 100%;
-        padding: 2em;
+        margin: 0 auto;
 
     }
 
     .link-logo {
-        display: flex;
-        width: 100%;
+        display:grid;
+        padding: 1em;
+        margin: 0;
     }
+
+    .navegacao-pagina {
+        display:inline-flex;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    .navegacao-pagina li {
+        color: rgb(218, 218, 218);
+        padding: 0;
+        font-family: 'Roboto Mono', monospace;
+        width: 100%;
+        margin: 0;
+        font-size: small;
+    }
+    
 
     .home {
         display: inline;
         background: black;
         align-items: center;
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .home-container-text {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .home-container-text h1 {
-        line-height: 1.2em;
+        padding: 1em;
+        line-height: 2em;
         font-size: 1.2em;
+        text-align: center;
     }
 
     .nome-home { 
@@ -343,7 +349,161 @@ footer img {
         line-height: 1.2em;
     }
 
-    .gif-home [herf] :after{
-        content: "";
+    .gif-home{
+        display: none;
     }
+
+    body {
+        width: 100%;
+    }
+
+    .sobre {
+        display: grid;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .img-sobre {
+        margin: 2em auto;
+    }
+
+    .sobre-texto {
+        padding: 1em;
+        margin: 0;
+        text-align: center;
+    }
+
+    .sobre-texto h2 {
+        font-size: 2em;
+    }
+
+    .sobre-texto p {
+        padding: 1em;
+    }
+
+    .projetos {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .projetos h2 {
+        font-size: 2em;
+        margin: 1em 0;
+    }
+
+    .itens-projetos-div {
+        display: block;
+    }
+
+    .itens-projetos {
+        padding: 1em;
+        margin: 1em 2em;
+        align-items: center;
+        border: solid 1px #ec407a;
+    }
+
+    .itens-projetos p{
+        text-align: center;
+
+    }
+
+    .repositorio-github {
+        padding: 1em;
+        margin: 1em 2em;
+        background-color: #ec407a;
+        border: solid 1px;
+        border-radius: 10px;
+        color: black;
+    }
+
+    .servicos-grid {
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .servicos {
+        display: grid;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .servicos h2{
+        font-size: 2em;
+        margin: 1em 0;
+    }
+
+    .itens-servicos-div {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .itens-servicos {
+        display: grid;
+        padding: 1em;
+        margin: 1em 2em;
+        align-items: center;
+    }
+
+    .div-img-servicos {
+        display: flex;
+        padding: 1em;
+    }
+
+    .itens-servicos img{
+        padding: 0;
+        margin: auto;
+    }
+
+    .itens-servicos h3 {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .itens-servicos p{
+        text-align: center;
+    }
+
+    .conhecimentos {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .div-titulo-conhecimentos {
+        margin: 0;
+        padding: 0;
+    }
+
+    .conhecimentos h2 {
+        font-size: 2em;
+        margin: 1em 0;
+    }
+
+    .itens-conhecimentos-div {
+        display: block;
+    }
+
+    footer {
+        display: grid;
+        padding: 1em;
+    }
+
+    footer h2 {
+        text-align: center;
+    }
+
+    footer img {
+        width: 10%;
+        padding: 1em;
+        margin: 0 auto;
+    }
+
 }
