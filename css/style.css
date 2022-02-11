@@ -283,3 +283,67 @@ footer h2 {
 footer img {
     width: 3%;
 }
+
+@media screen and (min-width: 200px) and (max-width: 812px){
+
+    header {
+        width: 100%;
+    }
+
+    .nav-cabecalho {
+        display: block;
+        align-items: center;
+        background: rgb(22, 22, 22);
+    }
+
+    .navegacao-pagina {
+        display: flex;
+        width: 100%;
+    }
+
+    .navegacao-pagina li {
+        color: rgb(218, 218, 218);
+        padding: 0 0 1em 0;
+        font-family: 'Roboto Mono', monospace;
+        text-align: end;
+        font-size: 1.4em;
+    }
+    
+    .logotipo {
+        width: 15%;
+        margin: 0 auto;
+        opacity: 100%;
+        padding: 2em;
+
+    }
+
+    .link-logo {
+        display: flex;
+        width: 100%;
+    }
+
+    .home {
+        display: inline;
+        background: black;
+        align-items: center;
+        width: 100%;
+    }
+
+    .home-container-text {
+        width: 100%;
+    }
+
+    .home-container-text h1 {
+        line-height: 1.2em;
+        font-size: 1.2em;
+    }
+
+    .nome-home { 
+        font-size: 1.6em;
+        line-height: 1.2em;
+    }
+
+    .gif-home [herf] :after{
+        content: "";
+    }
+}
