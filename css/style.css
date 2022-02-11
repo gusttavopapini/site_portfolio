@@ -331,6 +331,10 @@ footer img {
         margin: 0;
         font-size: small;
     }
+
+    .navegacao-pagina li:hover {
+        border: none;
+    }
     
     main {
         padding-top: 35%;
