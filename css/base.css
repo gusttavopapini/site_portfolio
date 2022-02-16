@@ -1,0 +1,54 @@
+:root {
+    --preto: #000;
+    --cinza: #444;
+    --branco: #fff;
+    --rosa: #ec407a;
+
+    --roboto: 'Roboto Mono', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header {
+    background-color: var(--cinza);
+    font-family: var(--roboto);
+    font-weight: 200;
+    position: sticky;
+    top: 0;
+}
+
+main {
+   background-color: var(--preto);
+   font-family: var(--roboto);
+   font-weight: 200;
+}
+
+footer {
+    background-color: var(--cinza);
+    font-family: var(--roboto);
+    
+}
+
+p {
+    color: var(--branco);
+    font-weight: 200;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--branco);
+}
+
+.menu {
+    color: var(--branco);
+    text-align: center;
+}
+
+.titulo {
+    font-weight: 500;
+}
+
+.grid {
+    padding: 0 2em 2em 2em;
+}

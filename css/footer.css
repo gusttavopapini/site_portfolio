@@ -1,0 +1,38 @@
+.footer {
+    display: block;
+    padding: 1em 0;
+    align-items: center;
+}
+
+.footer h2 {
+    padding: 0 0 0.5em;
+    text-align: center;
+}
+
+.img-footer {
+    width: 10%;
+    margin: auto;
+}
+
+.img-footer img {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+
+    .img-footer {
+        width: 5%;
+    }
+    
+}
+
+@media screen and (min-width: 1080px) {
+
+    .footer h2 {
+        font-size: 1.5em;
+    }
+    
+    .img-footer {
+        width: 100px:
+    }
+}

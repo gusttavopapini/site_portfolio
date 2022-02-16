@@ -10,42 +10,56 @@
     <link rel="shortcut icon" href="img/logotipo-gustavo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/servicos.css">
+    <link rel="stylesheet" href="css/conhecimentos.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet"> 
         
 </head>
+
 <body>
 
-    <header>
-        <div class="caixa">
-            <nav class="nav-cabecalho" class="nav">
+    <header> 
+
+        <div class="cabecalho">
+
+            <div class="logotipo">
 
                 <a href="#" class="link-logo">
-                    <img src="img/logotipo-gustavo.png" alt="Logo Gustavo Papini" href="#" class="logotipo">
+                    <img src="img/logotipo-gustavo.png" alt="Logo Gustavo Papini">
                 </a>
 
-                <ul class="navegacao-pagina">
+            </div>
 
-                    <li>
-                        <a href="#sobre-ancora">Quem Sou</a>
-                    </li>
+            <nav class="nav-cabecalho" >
 
-                    <li>
-                        <a href="#projetos-ancora">Projetos</a>
-                    </li>
+                    <ul class="menu">
 
-                    <li>
-                        <a href="#servicos-ancora">Serviços</a>
-                    </li>
+                        <li>
+                            <a href="#sobre-ancora">Quem Sou</a>
+                        </li>
 
-                    <li>
-                        <a href="#conhecimentos-ancora">Conhecimentos</a>
-                    </li>
-                    
-                </ul>
+                        <li>
+                            <a href="#projetos-ancora">Projetos</a>
+                        </li>
+
+                        <li>
+                            <a href="#servicos-ancora">Serviços</a>
+                        </li>
+
+                        <li>
+                            <a href="#conhecimentos-ancora">Conhecimentos</a>
+                        </li>
+                        
+                    </ul>
 
             </nav>
 
@@ -54,42 +68,56 @@
     </header>
     
     <main>
-
         <a name="home-ancora"></a>
 
         <section class="sec-home">
 
-            <div class="home">
+            <div class="grid">
 
-                <div class="home-container-text">
+                <div class="home">
 
-                    <h1>
-                        Olá, eu sou <br/>
-                        <span class="nome-home">Gustavo Papini.</span>
-                        <br/>
-                        <span class="texto-marcado">Front-end</span> developer.
-                    </h1>
+                    <div class="text-home">
 
-                </div>
+                        <h1>
+                            Olá, eu sou <br/>
+                            <span class="nome-home">Gustavo Papini.</span>
+                            <br/>
+                            <span class="texto-marcado">Front-end</span> developer.
+                        </h1>
 
-                <img src="img/gif-home.gif" alt="gif home da página" class="gif-home">
+                    </div>
+
+                    <div class="img-home">
+
+                        <img src="img/gif-home.gif" alt="gif home da página" class="gif-home">
+
+                    </div>
+
+                </div> 
 
             </div>
 
         </section>
 
         <a name="sobre-ancora"></a>
-        <section>
+       
+        <section >
 
-            <div class="sec-sobre">
+            <div class="grid">
 
                 <div class="sobre">
 
-                    <img src="img/img-sobre.JPEG" alt="Foto - rosto de gustavo" class="img-sobre">
+                    <div class="img-sobre">
 
-                    <article class="sobre-texto">
-                        <h2 class="titulos">Quem Sou</h2>
-                        <p>Meu nome é Gustavo, ou "PAPINI" (é como todos me chamam). Sou Front-end developer.<br/> Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO. </p>
+                        <img src="img/img-sobre.JPEG" alt="Foto - rosto de gustavo">
+
+                    </div>
+
+                    <article class="text-sobre">
+                        
+                        <h2 class="titulo">Quem Sou</h2>
+                        <p>Meu nome é Gustavo, ou "PAPINI" (é como todos me chamam). Sou Front-end developer. Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações e responsividade.</p>
+
                     </article>
 
                 </div>
@@ -99,13 +127,14 @@
         </section>
 
         <a name="projetos-ancora"></a>
+
         <section>
 
-            <div class="sec-projetos">
+            <div class="grid">
 
                 <div class="projetos">
 
-                    <h2 class="titulos">Projetos</h2>
+                    <h2 class="titulo">Projetos</h2>
 
                     <div class="itens-projetos-div">
                         
@@ -127,7 +156,6 @@
                             </div> 
                         </a>
 
-<!--REMOVER LINK DA BRAZIL IMPORT EXPORT-->
 
                         <a href="https://www.brazilimportexport.com/" target="blank">
                             <div class="itens-projetos">
@@ -136,7 +164,6 @@
                                     <p>Espera um pouco, o projeto ainda está sendo desenvolvido :)</p>
                                 </article>
                             </div>
-
                         </a>
 
                     </div>
@@ -152,37 +179,52 @@
         </section>
 
         <a name="servicos-ancora"></a>
-        <section class="sec-servicos">
 
-            <div class="servicos-grid">
+        <section>
+
+            <div class="grid">
 
                 <div class="servicos">
 
-                    <div class="div-titulo-servicos">
-                        <h2 class="titulos">Serviços</h2>
-                    </div>
-
+                    <h2 class="titulo">Serviços</h2>
+                    
                     <div class="itens-servicos-div">
 
-                        <div class="itens-servicos">
-                            <article>
-                                <div class="div-img-servicos">
-                                    <img src="img/img-servico-1.png" alt="icone pasta">
-                                </div>
-                                <h3>Desenvolvimento Web</h3>
-                                <p>Desenvolvimento de sites profissionais, blogs, portfólios, landing pages e e-commerce.</p>
-                            </article>
-                        </div>
+                        <article class="itens-servicos">
+                            
+                            <div class="img-servicos">
 
-                        <div class="itens-servicos">
-                            <article>
-                                <div class="div-img-servicos">
-                                    <img src="img/img-servico-2.png" alt="icone caneta de edição">
-                                </div>
+                                <img src="img/img-servico-1.png" alt="icone pasta">
+
+                            </div>
+
+                            <div class="text-servicos">
+
+                                <h3>Desenvolvimento Web</h3>
+
+                                <p>Desenvolvimento de sites profissionais, blogs, portfólios, landing pages e e-commerce.</p>
+                                
+                            </div>
+
+                        </article>
+
+                        <article class="itens-servicos">
+
+                            <div class="img-servicos">
+                            
+                                <img src="img/img-servico-2.png" alt="icone caneta de edição">
+
+                            </div>
+
+                            <div class="text-servicos">
+
                                 <h3>Criação de Layouts Modernos</h3>
+
                                 <p>Criação de interface de forma que ela seja clara, objetiva e principalmente intuitiva para o usuário.</p>
-                            </article>
-                        </div>
+
+                            </div>
+
+                        </article>
 
                     </div>
 
@@ -191,25 +233,43 @@
             </div>
 
         </section>
+
         <a name="conhecimentos-ancora"></a>
-        <section class="sec-conhecimentos">
+        
+        <section>
 
-            <div class="conhecimentos">
+            <div class="grid">
 
-                <div class="div-titulo-conhecimentos">
+                <div class="conhecimentos">
+
                     <h2 class="titulos">Conhecimentos</h2>
-                </div>
 
-                <div class="itens-conhecimentos-div">
+                    <div class="itens-conhecimentos-div">
 
-                    <div class="conhecimentos-item">
-                        <img src="img/html-ic.png" alt="icone html">
-                        <p>HTML abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto" é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
-                    </div>
+                        <div class="itens-conhecimentos">
 
-                    <div class="conhecimentos-item">
-                        <img src="img/css-ic.png" alt="icone css">
-                        <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.</p>
+                            <div class="img-conhecimentos">
+
+                                <img src="img/html-ic.png" alt="icone html">
+
+                            </div>
+
+                            <p>HTML abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto" é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+
+                        </div>
+
+                        <div class="itens-conhecimentos">
+
+                            <div class="img-conhecimentos">
+
+                                <img src="img/css-ic.png" alt="icone css">
+
+                            </div>
+
+                            <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.</p>
+
+                        </div>
+
                     </div>
 
                 </div>
@@ -219,10 +279,19 @@
         </section>
 
     </main>
-    
+
     <footer>
-                <h2>Power by</h2>
+
+        <div class="footer">
+
+            <h2 class="titulo">Power by</h2>
+
+            <div class="img-footer">
+                
                 <img src="img/logotipo-gustavo.png" alt="logotipo-gustavo">
+
+            </div>
+
         </div>
 
     </footer>

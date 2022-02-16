@@ -1,0 +1,70 @@
+.home {
+    display: block ;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0 0 0;
+}
+
+.text-home h1{
+    text-align: center;
+    line-height: 2em;
+}
+
+.nome-home {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.texto-marcado {
+    background-color: var(--rosa);
+}
+
+.img-home {
+    display: none;
+}
+
+@media screen and (min-width: 600px){
+    
+    .home {
+        display: flex;
+    }
+
+    .text-home {
+        margin: auto;
+    }
+
+    .text-home h1{
+        text-align: start;
+        font-size: 1.7em;
+    }
+
+    .img-home {
+        display: block;
+        width: 30%;
+        margin: auto;
+    }
+
+    .img-home img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1080px) {
+    
+    .home {
+        width: 60%;
+        margin: 0 auto;
+        padding: 10em 0;
+    }
+
+    .text-home {
+        margin: auto;
+    }
+
+    .text-home h1{
+        text-align: start;
+        font-size: 2.5em;
+    }
+
+}
